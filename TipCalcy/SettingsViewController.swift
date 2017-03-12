@@ -10,12 +10,21 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var percentSegment: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let defaults = UserDefaults.standard
+        let selectedIndex = defaults.integer(forKey: "SELECTED_SEGMENT_INDEX")
+        percentSegment.selectedSegmentIndex = selectedIndex
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func onPercentChanged(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        defaults.set(percentSegment.selectedSegmentIndex, forKey: "SELECTED_SEGMENT_INDEX")
+        defaults.synchronize()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

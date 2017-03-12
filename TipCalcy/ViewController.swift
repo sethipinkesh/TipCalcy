@@ -17,15 +17,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+                // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        let selectedIndex = defaults.integer(forKey: "SELECTED_SEGMENT_INDEX")
+        tipPercentSgement.selectedSegmentIndex = selectedIndex
+        tipPercentSgement.sendActions(for: UIControlEvents.valueChanged)
+        self.amountTextField.becomeFirstResponder()
+        
+        super.viewWillAppear(animated)
     }
-
-    @IBAction func calculateTip(_ sender: Any) {
+    
+    @IBAction func calculateTip(_ sender: AnyObject) {
         let percent = [0.15,0.20,0.25]
         
         let billAmount =  Double(amountTextField.text!) ?? 0
