@@ -14,6 +14,7 @@
 		B3AA254C1E73183B00DB637C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AA254A1E73183B00DB637C /* LaunchScreen.storyboard */; };
 		B3AA25571E73183B00DB637C /* TipCalcyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA25561E73183B00DB637C /* TipCalcyTests.swift */; };
 		B3AA25621E73183B00DB637C /* TipCalcyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA25611E73183B00DB637C /* TipCalcyUITests.swift */; };
+		B3D8D0FE1E747A7200EB05D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8D0FD1E747A7200EB05D0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B3AA255D1E73183B00DB637C /* TipCalcyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AA25611E73183B00DB637C /* TipCalcyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcyUITests.swift; sourceTree = "<group>"; };
 		B3AA25631E73183B00DB637C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D8D0FD1E747A7200EB05D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B3AA25481E73183B00DB637C /* Assets.xcassets */,
 				B3AA254A1E73183B00DB637C /* LaunchScreen.storyboard */,
 				B3AA254D1E73183B00DB637C /* Info.plist */,
+				B3D8D0FD1E747A7200EB05D0 /* SettingsViewController.swift */,
 			);
 			path = TipCalcy;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				B3AA25441E73183B00DB637C /* ViewController.swift in Sources */,
 				B3AA25421E73183B00DB637C /* AppDelegate.swift in Sources */,
+				B3D8D0FE1E747A7200EB05D0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				B3AA25681E73183B00DB637C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3AA25691E73183B00DB637C /* Build configuration list for PBXNativeTarget "TipCalcyTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				B3AA256B1E73183B00DB637C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3AA256C1E73183B00DB637C /* Build configuration list for PBXNativeTarget "TipCalcyUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				B3AA256E1E73183B00DB637C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
