@@ -1,9 +1,9 @@
 # TipCalcy
-TipCalcy:: Tip Calculator app for CodePath
+**TipCalcy:: Tip Calculator app for CodePath**
 
 Time spent: 6 hours total
 
-Completed user stories:
+**Completed user stories:**
 
  1) Required: Basic tip calculator functionatliy
  
@@ -11,3 +11,8 @@ Completed user stories:
  
  3) Optional: Remember the bill amount across app restarts 
  
+**Walkthrough of Required and Optional user stories:**
+
+![](gif/TipCalcyDemo.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
