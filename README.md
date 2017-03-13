@@ -30,9 +30,11 @@ Here is a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-* A visible section change was coming on Percent segement when returing from the seetings screen after doing any chnage in default value of Tip Percent.It was due to to setting the percent segment value in wrong life cyclce event of View Controller. After analyzing the life cycle events of View controller fixed this issue. 
+* Work is in progress to add optional features.
 
 Describe any challenges encountered while building the app.
+
+* A visible section change was coming on Percent segement when returing from the seetings screen after doing any chnage in default value of Tip Percent.It was due to to setting the percent segment value in wrong life cyclce event of View Controller. After analyzing the life cycle events of View controller fixed this issue. 
 
 ## License
 
